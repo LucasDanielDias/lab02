@@ -29,6 +29,17 @@ public class Conta {
         return saldo;
     }
 
+    public void tranferir(Conta destino, Double valor){
+        if (this.getSaldo()<valor)
+            throw new IllegalArgumentException("Saldo insulficiente");
+
+        if (this.equals(destino))
+            throw new IllegalArgumentException("E a mesma conta");
+
+        this.sacar(valor);
+        destino.depositar(valor);
+    }
+
     public Integer getNumero() {
         return numero;
     }

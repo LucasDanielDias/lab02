@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bb0cdc5-b86f-42ae-a147-e917a88355c3" name="Changes" comment="feat: Cria atualizaçao aula 03">
+    <list default="true" id="5bb0cdc5-b86f-42ae-a147-e917a88355c3" name="Changes" comment="feat: implementa equals e hashcodes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677887230454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: implementa equals e hashcodes">
+      <created>1677889293309</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677889293309</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +114,7 @@
     <MESSAGE value="feat: cria estrutura inicial" />
     <MESSAGE value="feat: cria a classe conta" />
     <MESSAGE value="feat: Cria atualizaçao aula 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Cria atualizaçao aula 03" />
+    <MESSAGE value="feat: implementa equals e hashcodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implementa equals e hashcodes" />
   </component>
 </project>
